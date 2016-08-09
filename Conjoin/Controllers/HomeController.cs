@@ -11,7 +11,6 @@ namespace Conjoin.Controllers
     {
         public ActionResult Index()
         {
-
             return View();
         }
 
