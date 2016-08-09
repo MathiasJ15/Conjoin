@@ -1,0 +1,103 @@
+﻿#nttLogo{
+  height: 100px;
+  width: 100px;
+}
+#websiteTitle{
+  font-size: 10em;
+  vertical-align: middle;
+  font-family: 'Pacifico', cursive;
+  padding-left: 15px;
+  color: #191970;
+}
+#websiteSlogan{
+  font-size: 5.4em;
+}
+/* Carousel Styling */
+.slide1 {
+    background-image: url('../images/whine.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.slide2 {
+    background-image: url('../images/basket.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.slide3 {
+    background-image: url('../images/chocolate.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 2em;
+}
+
+/*Style Home page*/
+.jumbotron {
+    margin-top: 10px;
+    font-size: medium;
+    line-height: normal;
+    background: none;
+}
+
+.blog-layout {
+    margin-top: 3em;
+}
+
+/* style template*/
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}

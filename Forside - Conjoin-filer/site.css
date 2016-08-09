@@ -1,0 +1,75 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('../images/snow.png');
+}
+
+.navbar-header {
+    margin-left: 6em;
+}
+
+.navbar {
+    background: #375e97;
+}
+
+#navbar-style a {color: #FFFFFF;}
+#navbar-style a:hover,
+#navbar-style a:focus,
+#navbar-style a:visited {background: #4474bb;}
+
+#navbar-style .submenu a {color: #000000;}
+#navbar-style .submenu a:hover {
+    background: #c8d5ea;
+    color: #000000;
+}
+
+
+/* Slide effect is added*/
+.open > .dropdown-menu {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);  
+  
+}
+.open > .dropdown-menu li a {
+  color: #000;  
+}
+.dropdown-menu li a{
+  color: #fff;
+}
+.dropdown-menu {
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;  
+  animation-fill-mode: forwards; 
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  display: block;
+  
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+}
+.dropup .dropdown-menu {
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;  
+}
+
+.dropup > .dropdown-menu:after {
+  border-bottom: 0;
+  border-top: 6px solid rgba(39, 45, 51, 0.9);
+  top: auto;
+  display: inline-block;
+  bottom: -6px;
+  content: '';
+  position: absolute;
+  left: 50%;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+/* ------------------------------------- */
+
+
+
+
+
+
+
